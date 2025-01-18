@@ -1,0 +1,26 @@
+{
+  "name": "candorstudios-js",
+  "version": "1.0.0",
+  "description": "JS/TS library created by Candor Studios for interfacing with the freelancer API",
+  "maintainers": [
+    {
+      "name": "George",
+      "email": "georgeh@candorstudios.net"
+    }
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.18.42",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  }
+}
